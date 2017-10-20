@@ -1,0 +1,70 @@
+/* Colocamos un titulo - tipo de letra*/
+h1 {
+  font-style: italic;
+  font-family: fantasy;
+  text-align: center;
+  color: rgb(227, 117, 40);
+  text-decoration:underline;
+  font-size: 3rem;
+}
+/* Llamamos a la clase padre*/
+.caja-padre {
+  background-color: rgb(223, 10, 10);
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+}
+/* Llamamos a la clase hijo*/
+.caja-hijo {
+  background-color: rgb(145, 11, 107);
+  width: 16rem;
+  height: 16rem;
+  position:absolute;
+  left: 7rem;
+  top:7rem;
+
+}
+/* Llamamos a la clase hijo2*/
+.caja-hijo2 {
+  background-color: rgb(247, 245, 16);
+  width: 7.5rem;
+  height: 7.5rem;
+  position:absolute;
+  left: 0rem;
+  top:0rem;
+
+}
+
+/* Realizando el segundo grafico*/
+
+/* Llamamos a la clase box-padre*/
+
+.box-padre {
+  background-color: rgb(53, 10, 223);
+  width: 30rem;
+  height: 30rem;
+  position: relative;
+  top: 2rem;
+}
+
+/* Llamamos a la clase hijo*/
+.box-hijo {
+  background-color: rgb(8, 131, 28);
+  width: 16rem;
+  height: 16rem;
+  position:absolute;
+  left: 7.5rem;
+  top:7.5rem;
+
+
+}
+/* Llamamos a la clase hijo2*/
+.box-hijo2 {
+  background-color: rgb(13, 13, 2);
+  width: 7.5rem;
+  height: 7.5rem;
+  position:absolute;
+  left: -7.5rem;
+  top:-7.5rem;
+
+}
